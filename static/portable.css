@@ -1,0 +1,148 @@
+body {
+	background-color: rgb(63, 63, 63);
+	margin: 0px;
+	height:100%;
+	font-family: Open Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+}
+
+h1 {
+	color:white;
+}
+h2{
+	color:rgb(238, 205, 18);
+}
+div.wrapper {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	background:rgba(255, 255, 255, 1);
+}
+div.content {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0);
+	position: static;
+	margin: 0 auto;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+	/*border-radius: 3px;*/
+	height: auto;
+	width: 90%;
+	padding: 11px;
+}
+div#subcount {
+	object-position: center;
+	align-content: center;
+	background-color: #FF4E51;
+	margin: 10px;
+	bottom: 0;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	clear: both;
+}
+h#vs {
+	vertical-align: center;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+	font-size: 100px;
+	margin-left: 20px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 10px;
+	position: relative;
+}
+a#subscribe {
+	left: 0;
+	right: 0;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 10px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: #ff0000;
+	display: block;
+	border-radius: 5px;
+}
+a{
+	text-decoration:none;
+}
+div.navbar {
+	Position: sticky;
+	width: 100%;
+	left: -0px;
+	top: 0;
+	z-index: 55;
+	background-color: #333;
+
+}
+div.logo {
+	text-align: center;
+	background-color: #333;
+	margin: 0 auto;
+	padding: 5px;
+	height: 105%;
+	color: #ff4949;
+	background: linear-gradient(90deg, rgb(250, 232, 68),rgb(255, 196, 0),rgb(255, 153, 0));
+	position: static;
+}
+iframe.slider {
+	min-width: 80%;
+	min-height: 400px;
+	overflow: hidden;
+}
+iframe.links {
+	min-width: 80%;
+	min-height: 610px;
+	overflow: hidden;
+	left: 0;
+}
+div#secondary {
+	width: 100%;
+	
+}
+div#clr {
+	clear:both;
+}
+.tablinks {
+	background-color: #facf43; /* Green */
+	border: none;
+	color: #333;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	align-content: center;
+}
+div.charity {
+	color: lightgreen;
+}
+div.tab {
+	border: none;
+}
+ul.values{
+	position: static;
+	display: inline;
+}
+div.ja{
+	padding-top:10px;
+	display:block;
+	border-top: 6px solid rgb(250, 207, 67);
+}
+p#desc{
+	padding-left:20%;
+	padding-right:20%;
+
+}
+div.sponsors{
+	padding-top:10px;
+	display:block;
+	border-top: 6px solid rgb(250, 207, 67);
+}
+div.staff{
+	padding-top:10px;
+	display:block;
+	border-top: 6px solid rgb(250, 207, 67);
+}

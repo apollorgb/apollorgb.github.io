@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apollo RGB - About us</title>
+	<link rel="stylesheet" href="../static/desktop.css">
+	<link rel="shortcut icon" href="../static/images/icon.ico">
+	
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	
+	<script>
+		$(function(){
+ 		$(".navbar").load("../navbar.html");
+		});
+		function resizeIframe(obj) {
+		  obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+		}
+	</script>
+</head>
+	<body style="background-color:white;">
+		<div class="logo">
+			<!-- <h1>Apollo RGB</h1> -->
+		</div>
+		<div class="navbar" style="width:80%; margin:0 auto;"></div>
+		<div class="wrapper" style="height:1300px;">
+			<div class="content">
+				<h2>
+                    Contact us
+				</h2>
+				<div id="primary">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdf3h4XMtLY08Tphh3Gnvf2lxGKUqK-xn9y8771S_QW1J-Hfg/viewform?embedded=true" width="640" height="1250" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+					<p>Please contact us if you have any questions or require support.</p>
+				</div>
+			</div>
+		</div>
+		<script>
+			includeHTML();
+		</script>
+
+	</body>
+	
+</html>

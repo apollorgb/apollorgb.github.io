@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="refresh" content="0; url=./pages/home.html" />
+	<title>Apollo RGB</title>
+	<link rel="stylesheet" href="./static/ctc.css">
+	<link rel="shortcut icon" href="./ctc/static/images/NFN_LOGO.ico">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+		$(function(){
+ 		$(".navbar").load("../navbar.html");
+		});
+	</script>
+</head>
+	<body>
+		<div class="logo">
+			<h1>Apollo RGB</h1>
+		</div>
+		<div class="navbar"></div>
+		<div class="wrapper">
+			<div class="content">
+				<h2>Apollo RGB</h2>
+			  	<div class="tab">
+						<button class="tablinks" onclick="openAcademic(event, 'Product')">Product</button>
+						<button class="tablinks" onclick="openAcademic(event, 'About')">About</button>
+						<button class="tablinks" onclick="openAcademic(event, 'other')">other</button>
+					</div>
+					<!-- Tab content -->
+					<div id="Product" class="tabcontent">
+						<h3>Product</h3>
+						<p>Coming soon</p>
+					</div>
+
+					<div id="About" class="tabcontent">
+						<h3>About</h3>
+						<p>Coming soon</p>
+					</div>
+
+					<div id="other" class="tabcontent">
+						<h3>other</h3>
+						<p>Coming soon</p>
+					</div>
+					<script>
+						includeHTML();
+						function openAcademic(evt, academicName) {
+						  var i, tabcontent, tablinks;
+						  tabcontent = document.getElementsByClassName("tabcontent");
+						  for (i = 0; i < tabcontent.length; i++) {
+						    tabcontent[i].style.display = "none";
+						  }
+						  tablinks = document.getElementsByClassName("tablinks");
+						  for (i = 0; i < tablinks.length; i++) {
+						    tablinks[i].className = tablinks[i].className.replace(" active", "");
+						  }
+						  document.getElementById(academicName).style.display = "block";
+						  evt.currentTarget.className += " active";
+						}
+					</script>
+						
+				</div>
+			</div>
+		</div>
+		<script>
+			includeHTML();
+		</script>
+
+	</body>
+	
+</html>
