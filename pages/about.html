@@ -1,102 +1,180 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Apollo RGB - About us</title>
-	<link rel="stylesheet" href="../static/desktop.css">
-	<link rel="shortcut icon" href="../static/images/icon.ico">
-	
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	
-	<script>
-		$(function(){
- 		$(".navbar").load("../navbar.html");
-		});
-	</script>
-</head>
-	<body style="background-color: white;">
-		<div class="logo">
-			<!-- <h1>Apollo</h1> -->
-		</div>
-		<div class="navbar"  style="width:80%; margin:0 auto;"></div>
-		<div class="wrapper">
-			<div class="content">
-				<h2>
-					About us
-				</h2>
-				<div id="primary">
-					<div class="img">
-						
-					</div>
-					<div class="company">
-						<div class="tab" style="align-content: center;">
-							<button class="tablinks" onclick="tabs(event, 'Mission')">Mission</button>
-							<button class="tablinks" onclick="tabs(event, 'Vision')">Vision</button>
-							<button class="tablinks" onclick="tabs(event, 'Values')">Values</button>
-						</div>
-						<div id="Mission" class="tabcontent" style="display:block; border:none; background-color:#ffff;">
-							<h3>Mission</h3>
-							<p>Sparking a bright, modern aesthetic in your home thereby spreading a glow to every heart through creating handcrafted, sustainable LED lamps.</p>
-						</div>
-		
-						<div id="Vision" class="tabcontent">
-							<h3>Vision</h3>
-							<p><em>"I'm pretty sure I have 20/20 vision, but I'm not certain. I think Naruto has advanced my vision though."</em> - Rob<br />(Coming Soon)</p>
-						</div>
-		
-						<div id="Values" class="tabcontent">
-							<h3>Values</h3>
-							<p style="font-size:18px; line-height: 150%; color:#52504e"><em>Integrity<br>
-								Honesty<br>
-								Compassion<br>
-								Cooperation
-								</em></p>
-						</div>
-						<script>
-							includeHTML();
-							function tabs(evt, displays, tabb) {
-								var i, tabcontent, tablinks, tabb;
-								tabcontent = document.getElementsByClassName("tabcontent");
-								for (i = 0; i < tabcontent.length; i++) {
-								tabcontent[i].style.display = "none";
-								}
-								tabb = document.getElementsByClassName("tab");
-								for (i = 0; i < tabb.length; i++) {
-								tabb[i].style.border = "none";
-								}
-								tablinks = document.getElementsByClassName("tablinks");
-								for (i = 0; i < tablinks.length; i++) {
-								tablinks[i].className = tablinks[i].className.replace(" active", "");
-								}
-								document.getElementById(displays).style.display = "block";
-								document.getElementById(displays).style.border = "none";
-								document.getElementById(displays).style.backgroundColor = "#ffff";
-								// document.getElementById(tabb).style.float = "0 auto";
-
-								evt.currentTarget.className += " active";
-							}
-						</script>
-						<div class="ja" style="margin:auto; margin-bottom:5px;">
-							<a target="_blank" href="https://jasab.ca"><img src="https://cdn.discordapp.com/attachments/642547206275989527/650482961929469973/ja.png" style="object-fit:contain; max-width:100%; height:auto; padding-top:15px;"></a>
-							<p align="left"id="desc" style="text-indent:50px; padding-bottom:15px;"><strong>Junior Achievement®</strong> is a nonprofit, entrepreneurial organization that seeks to aid students in developing their skills for the business world by providing them with <i>resources & opportunities</i>, which in turn give students practical experience in many areas.
-								 <strong>The Company Program</strong> is an afterschool, extracurricular, weekly activity where students are given the ability to create their own business and learn what it takes to maintain one. Students explore the procedure of planning, manufacturing and selling their product, whilst also observing the hard work that goes into the end product. 
-							</p>
-						</div>
-						<div class="sponsors">
-							<h2>Sponsors</h2>
-						</div>
-						<div class="staff">
-							<h2>Our Team</h2>
-							<p align="left" id="desc" style="display:flex; text-indent:50px;">Our team is made up of 25 hard workign students ranging from grade nine to twelve and 5 mentors who volunteer their time.</p>
-							
-						</div>
-				
-				</div>
-			</div>
-		</div>
-		<script>
-			includeHTML();
-		</script>
-
-	</body>
-	
+  <head>
+    <title>Apollo RGB - About us</title>
+    <link rel="stylesheet" href="../static/desktop.css">
+    <link rel="shortcut icon" href="../static/images/icon.ico">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function(){
+      	$(".navbar").load("../nav2.html");
+      });
+    </script>
+  </head>
+  <body style="background-color: white;">
+    <div class="logo">
+    </div>
+    <div class="navbar"  style="width:80%; margin:0 auto;"></div>
+    <div class="wrapper">
+      <div class="content" style="width: 100%;">
+        <h2 id="intro">
+          OUR TEAM
+        </h2>
+        <div id="primary">
+          <div class="company" style="width: 100%; margin: 0 auto;">
+            <div class="wsite-elements wsite-not-footer" id="wsite-content">
+              <div class="wsite-section-wrap" style="display: table; table-layout: fixed; margin: 0 auto;">
+                <div class="wsite-section wsite-body-section wsite-section-bg-color wsite-background-6" style="display: table-cell; height: auto; vertical-align: middle;">
+                  <div class="wsite-section-content" style="position: relative;">
+                    <div class="container" style="padding-right: 15px; padding-left: 15px; margin: 0px auto; box-sizing: border-box; padding-top: 70px;">
+                      <div class="wsite-section-elements">
+                        <div class="wsite-spacer" style="height: 43px;">&nbsp;</div>
+                        <div>
+                          <div class="wsite-multicol" style="position: relative; direction: ltr;">
+                            <div class="wsite-multicol-table-wrap" style="margin: 0 auto;">
+                              <table class="wsite-multicol-table" style="position: relative; border-collapse: collapse; table-layout: fixed; width:100%; max-width: 1170px; margin: 0 auto; border: 0px !important; padding: 0px !important;">
+                                <tbody class="wsite-multicol-tbody">
+                                  <tr class="wsite-multicol-tr">
+                                    <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px; margin: 0px !important; border: 0px !important; width: 360px;">
+                                      <div>
+                                        <div class="wsite-image wsite-image-border-none " style="position: relative; padding-top: 10px; padding-bottom: 10px; margin-left: 0px; margin-right: 0px; text-align: right;">
+                                          <a style="color: rgb(79, 79, 78); text-decoration-line: underline; font-weight: 600; letter-spacing: 0.09375em;"><img alt="Picture" src="https://cdn.discordapp.com/attachments/386717858781986819/658429614061780993/unknown.png" style="border-width: 0px !important; border-style: initial; border-color: initial; border-image: initial; width: auto; max-width: 100%;"></a>
+                                          <div style="font-size: 14.4px;">&nbsp;</div>
+                                        </div>
+                                      </div>
+                                      <div class="paragraph" style="overflow-wrap: break-word; margin: 0px auto 25px; padding: 0px; text-align: center; line-height: 26px !important; font-family: Open Sans !important; color: rgb(63, 63, 63) !important;"><strong>President&nbsp;</strong></div>
+                                    </td>
+                                    <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px; margin: 0px !important; border: 0px !important; width: 360px;">
+                                      <div>
+                                        <div class="wsite-image wsite-image-border-none " style="position: relative; padding-top: 10px; padding-bottom: 10px; margin-left: 0px; margin-right: 0px; text-align: right;">
+                                          <a style="color: rgb(79, 79, 78); text-decoration-line: underline; font-weight: 600; letter-spacing: 0.09375em;"><img alt="Picture" src="https://cdn.discordapp.com/attachments/386717858781986819/658424099089154049/unknown.png" style="border-width: 0px !important; border-style: initial; border-color: initial; border-image: initial; width: auto; max-width: 100%;"></a>
+                                          <div style="font-size: 14.4px;">&nbsp;</div>
+                                        </div>
+                                      </div>
+                                      <div class="paragraph" style="overflow-wrap: break-word; margin: 0px auto 25px; padding: 0px; text-align: center; line-height: 26px !important; font-family: Open Sans !important; color: rgb(63, 63, 63) !important;"><strong>Group Photo</strong></div>
+                                    </td>
+                                    <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px; margin: 0px !important; border: 0px !important; width: 360px;">
+                                      <div>
+                                        <div class="wsite-image wsite-image-border-none " style="position: relative; padding-top: 10px; padding-bottom: 10px; margin-left: 0px; margin-right: 0px; text-align: right;">
+                                          <a style="color: rgb(79, 79, 78); text-decoration-line: underline; font-weight: 600; letter-spacing: 0.09375em;"><img alt="Picture" src="http://apollorgb-v1.anonymousmagici.repl.co/pics/image1_1.jpg" style="border-width: 0px !important; border-style: initial; border-color: initial; border-image: initial; width: auto; max-width: 100%;"></a>
+                                          <div style="font-size: 14.4px;">&nbsp;</div>
+                                        </div>
+                                      </div>
+                                      <div class="paragraph" style="overflow-wrap: break-word; margin: 0px auto 25px; padding: 0px; text-align: center; line-height: 26px !important; font-family: Open Sans !important; color: rgb(63, 63, 63) !important;"><strong>Human Resources-</strong></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="wsite-multicol" style="position: relative; direction: ltr;">
+                            <div class="wsite-multicol-table-wrap" style="margin: 0px -15px;">
+                              <table class="wsite-multicol-table" style="position: relative; border-collapse: collapse; table-layout: fixed; width: 1170px; margin: 0px !important; border: 0px !important; padding: 0px !important;">
+                                <tbody class="wsite-multicol-tbody">
+                                  <tr class="wsite-multicol-tr">
+                                    <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px; margin: 0px !important; border: 0px !important; width: 263px;">
+                                      <div>
+                                        <div class="wsite-image wsite-image-border-none " style="position: relative; padding-top: 10px; padding-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+                                          <a style="color: rgb(79, 79, 78); text-decoration-line: underline; font-weight: 600; letter-spacing: 0.09375em;"><img alt="Picture" src="https://cdn.discordapp.com/attachments/386717858781986819/658424911928361010/unknown.png" style="border-width: 0px !important; border-style: initial; border-color: initial; border-image: initial; width: auto; max-width: 100%;"></a>
+                                          <div style="font-size: 14.4px;">&nbsp;</div>
+                                        </div>
+                                      </div>
+                                      <div class="paragraph" style="overflow-wrap: break-word; margin: 0px auto 25px; padding: 0px; text-align: center; line-height: 26px !important; font-family: Open Sans !important; color: rgb(63, 63, 63) !important;"><strong>Production</strong></div>
+                                    </td>
+                                    <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px; margin: 0px !important; border: 0px !important; width: 263px;">
+                                      <div>
+                                        <div class="wsite-image wsite-image-border-none " style="position: relative; padding-top: 10px; padding-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+                                          <a style="color: rgb(79, 79, 78); text-decoration-line: underline; font-weight: 600; letter-spacing: 0.09375em;"><img alt="Picture" src="https://cdn.discordapp.com/attachments/386717858781986819/658425748369178634/unknown.png" style="border-width: 0px !important; border-style: initial; border-color: initial; border-image: initial; width: auto; max-width: 100%;"></a>
+                                          <div style="font-size: 14.4px;">&nbsp;</div>
+                                        </div>
+                                      </div>
+                                      <div class="paragraph" style="overflow-wrap: break-word; margin: 0px auto 25px; padding: 0px; text-align: center; line-height: 26px !important; font-family: Open Sans !important; color: rgb(63, 63, 63) !important;"><strong>Financial</strong></div>
+                                    </td>
+                                    <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px; margin: 0px !important; border: 0px !important; width: 262px;">
+                                      <div>
+                                        <div class="wsite-image wsite-image-border-none " style="position: relative; padding-top: 10px; padding-bottom: 10px; margin-left: 0px; margin-right: 0px; text-align: right;">
+                                          <a style="color: rgb(79, 79, 78); text-decoration-line: underline; font-weight: 600; letter-spacing: 0.09375em;"><img alt="Picture" src="https://cdn.discordapp.com/attachments/386717858781986819/658421428613546024/unknown.png" style="border-width: 0px !important; border-style: initial; border-color: initial; border-image: initial; width: auto; max-width: 100%;"></a>
+                                          <div style="font-size: 14.4px;">&nbsp;</div>
+                                        </div>
+                                      </div>
+                                      <div class="paragraph" style="overflow-wrap: break-word; margin: 0px auto 25px; padding: 0px; text-align: center; line-height: 26px !important; font-family: Open Sans !important; color: rgb(63, 63, 63) !important;"><strong>Marketing</strong></div>
+                                    </td>
+                                    <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px; margin: 0px !important; border: 0px !important; width: 262px;">
+                                      <div>
+                                        <div class="wsite-image wsite-image-border-none " style="position: relative; padding-top: 10px; padding-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+                                          <a style="color: rgb(79, 79, 78); text-decoration-line: underline; font-weight: 600; letter-spacing: 0.09375em;"><img alt="Picture" src="https://cdn.discordapp.com/attachments/386717858781986819/658431286289104897/unknown.png" style="border-width: 0px !important; border-style: initial; border-color: initial; border-image: initial; width: auto; max-width: 100%;"></a>
+                                          <div style="font-size: 14.4px;">&nbsp;</div>
+                                        </div>
+                                      </div>
+                                      <div class="paragraph" style="overflow-wrap: break-word; margin: 0px auto 25px; padding: 0px; text-align: center; line-height: 26px !important; font-family: Open Sans !important; color: rgb(63, 63, 63) !important;"><strong>IT</strong></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ja" style="margin:auto; margin-bottom:5px;">
+                <p align="left" id="desc" style="padding-bottom:15px; letter-spacing: 2px; text-align: left; width: 25%;">
+                  <strong>Junior Achievement®</strong> is a nonprofit, entrepreneurial organization that seeks to aid students in developing their skills for the business world by providing them with <i>resources & opportunities</i>, which in turn give students practical experience in many areas.
+                </p>
+                <a target="_blank" href="https://jasab.ca"><img src="https://cdn.discordapp.com/attachments/642547206275989527/650482961929469973/ja.png" style="object-fit:contain; max-width:100%; height:auto; padding-top:15px; position:absolute; top:900px;"></a>
+                <p align="left" id="desc" style="padding-bottom:15px; padding-top: 10px; letter-spacing: 2px; text-align: left; width: 25%; margin: 0 0 0 35%; right:10px; z-index: 55;">
+                  <strong>The Company Program</strong> is an afterschool, extracurricular, weekly activity where students are given the ability to create their own business and learn what it takes to maintain one. Students explore the procedure of planning, manufacturing and selling their product, whilst also observing the hard work that goes into the end product. 
+                </p>
+              </div>
+              <div class="mission" style="display: table; table-layout: fixed; width: 100%;">
+                <div class="wsite-section wsite-body-section wsite-background-7" style="display: table-cell; width: 100%; height: auto; vertical-align: middle;">
+                  <div class="wsite-section-content" style="position: relative;">
+                    <div class="container" style="width: 80%; max-width: 100%; padding-right: 15px; padding-left: 15px; margin: 0px auto; box-sizing: border-box; padding-top: 70px;">
+                      <div class="wsite-section-elements">
+                        <div class="wsite-multicol" style="position: relative; direction: ltr;">
+                          <div class="wsite-multicol-table-wrap" style="margin: 0px -15px;">
+                            <table class="wsite-multicol-table" style="position: relative; border-collapse: collapse; table-layout: fixed; width: 100%; margin: 0px; border: 0px !important; padding: 0px !important;">
+                              <tbody class="wsite-multicol-tbody">
+                                <tr class="wsite-multicol-tr">
+                                  <td class="info" style="vertical-align: top; padding: 0px 15px; margin: 0 auto; width: 10%;">
+                                    <div class="paragraph" style="overflow-wrap: break-word; margin: 0 auto; padding: 0px; text-align: center; font-family: Open Sans; color: rgb(63, 63, 63);"><strong>Mission</strong><br>
+                                      <p align="left">Sparking a bright, modern aesthetic in your home thereby spreading a glow to every heart through creating handcrafted, sustainable LED lamps.</p>
+                                    </div>
+                                  </td>
+                                  <td class="info" style="vertical-align: top; padding: 0px 15px; margin: 0 auto; width: 10%;">
+                                    <div class="paragraph" style="overflow-wrap: break-word; margin: 0 auto; padding: 0px; text-align: center; font-family: Open Sans; color: rgb(63, 63, 63);"><strong>Vision</strong><br>
+                                      <p align="center">"My eyes aren't ready for 2020." <br>- Rob</p>
+                                    </div>
+                                  </td>
+                                  <td class="info" style="vertical-align: top; padding: 0px 15px; margin: 0 auto; width: 10%;">
+                                    <div class="paragraph" style="overflow-wrap: break-word; margin: 0 auto; padding: 0px; text-align: center; font-family: Open Sans; color: rgb(63, 63, 63);"><strong>&#8203;Values</strong><br>
+                                      <p>Integrity<br>
+										Honesty<br>
+										Compassion<br>
+										Cooperation</p>
+                                	</div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      includeHTML();
+    </script>
+  </body>
 </html>
