@@ -8,7 +8,7 @@ h1 {
 	color:white;
 }
 h2{
-	color:rgb(238, 205, 18);
+	color:rgb(0, 0, 0);
 }
 div.wrapper {
 	display:flex;
@@ -29,43 +29,60 @@ div.wrapper {
 }
 div.content {
 	text-align: center;
-	background-color: rgb(248, 248, 248);
+	background-color:white;
 	position: static;
 	margin: 0 auto;
-	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+	font-family: 'Sulphur Point', sans-serif;
 	/*border-radius: 3px;*/
 	height: 100%;
-	width: 80%;
+	width: 99%;
 	padding: 11px;
 	box-sizing: border-box;
 }
+div.image{
+	width:100%;
+	height:100%;
+	display: table-cell; width: 1903px; height: 400px; text-align: center; background: url(http://apollorgb-v1.anonymousmagici.repl.co/pics/light_up.jpg) 50% 50% / cover no-repeat transparent; vertical-align: middle;
+}
+.button{
+	background-color: rgb(226, 204, 0); /* Green */
+	border: none;
+	color: white;
+	padding: 20px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family:'Sulphur Point', sans-serif;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	z-index: 55;
+}
+.learn{
+	float:right;
+	position: absolute;
+	right:35%;
+	top:200px;
+	z-index:55;
+}
+.button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 a{
 	text-decoration:none;
+	font-family: 'Sulphur Point', sans-serif;
 }
 div.navbar {
 	Position: relative;
-	max-width: 89%;
+	padding-top:4px;
+	max-width: 100%;
 	left: -0px;
 	top: 0;
 	z-index: 55;
-	background-color: whitesmoke;
+	background-color: white;
 	margin: 0 auto;
-
-}
-div.logo {
-	text-align: center;
-	background-color: #333;
-	margin: 0 auto;
-	padding: 5px;
-	height: 105%;
-	color: #ff4949;
-	background: linear-gradient(90deg, rgb(250, 232, 68),rgb(255, 196, 0),rgb(255, 153, 0));
-	position: static;
-	width:80%;
-	box-sizing: border-box;
-	animation-name:logo;
-	animation-duration:5s;
-	animation-iteration-count: infinite;
 }
 @keyframes logo{
 	0% {background:rgb(250, 232, 68);}
@@ -110,14 +127,32 @@ ul.values{
 	position: static;
 	display: inline;
 }
-div.ja{
-	padding-top:10px;
-	display:block;
-	border-top: 2px solid rgb(250, 207, 67);
+#intro{
+	border-bottom: 2px solid lightblue; 
+	width:20%;
+	margin: 0 auto;
+	animation-name:intro;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
 }
+@keyframes intro{
+	0% {border-bottom:2px solid rgb(125, 214, 255);}
+	25% {border-bottom:2px solid rgb(96, 170, 255);}
+	50% {border-bottom:2px solid rgb(0, 119, 255);}
+	75% {border-bottom:2px solid rgb(96, 170, 255);}
+	100% {border-bottom:2px solid rgb(125, 214, 255);}
+}
+div.ja{
+	padding-top:50px;
+	display:block;
+	background-color: rgb(250, 250, 250);
+	width: 100%;
+	
+}
+
 p#desc{
 	padding-left:20%;
-	padding-right:20%;
+	padding-right:5%;
 
 }
 div.sponsors{
