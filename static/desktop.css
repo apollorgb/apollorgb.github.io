@@ -44,6 +44,27 @@ div.image{
 	height:100%;
 	display: table-cell; width: 1903px; height: 400px; text-align: center; background: url(http://apollorgb-v1.anonymousmagici.repl.co/pics/light_up.jpg) 50% 50% / cover no-repeat transparent; vertical-align: middle;
 }
+h1#slogan {
+	color: white; font-family: 'Sulphur Point', sans-serif; 
+	float:left; left:20%; 
+	padding: 5% 2%; 
+	font-size: 4rem; 
+	margin: 0px auto; 
+	box-sizing: border-box; 
+	display: flex; 
+	position: relative; 
+	height: 555px;
+	animation-name: slogan;
+	animation-duration:20s;
+	animation-iteration-count: infinite;
+}
+@keyframes slogan{
+	0% {color: rgb(121, 121, 121);}
+	25% {color: rgb(255, 255, 255);}
+	50% {color: rgb(255, 241, 118);}
+	80% {color: rgb(0, 0, 0);}
+	100% {color: rgb(121, 121, 121);}
+}
 .button{
 	background-color: rgb(226, 204, 0); /* Green */
 	border: none;
