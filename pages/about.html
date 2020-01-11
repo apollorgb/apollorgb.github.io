@@ -13,7 +13,7 @@
       });
     </script>
   </head>
-  <body style="background-color: white;">
+  <body style="background-color: white;" class="body-mobile">
     <div class="logo">
     </div>
     <div class="navbar"  style="width:80%; margin:0 auto;"></div>
@@ -123,12 +123,12 @@
                   </div>
                 </div>
               </div>
-              <div class="ja" style="margin:auto; margin-bottom:5px;">
-                <p align="left" id="desc" style="padding-bottom:15px; letter-spacing: 2px; text-align: left; width: 25%;">
+              <div class="ja">
+                <p align="left" id="desc">
                   <strong>Junior Achievement®</strong> is a nonprofit, entrepreneurial organization that seeks to aid students in developing their skills for the business world by providing them with <i>resources & opportunities</i>, which in turn give students practical experience in many areas.
                 </p>
-                <a target="_blank" href="https://jasab.ca"><img src="https://cdn.discordapp.com/attachments/642547206275989527/650482961929469973/ja.png" style="object-fit:contain; max-width:100%; height:auto; padding-top:15px; position:absolute; top:920px;"></a>
-                <p align="left" id="desc" style="padding-bottom:50px; padding-top: 10px; letter-spacing: 2px; text-align: left; width: 25%; margin: 0 0 0 35%; right:10px; z-index: 55;">
+                <a target="_blank" href="https://jasab.ca"><img id="jalogo" src="https://cdn.discordapp.com/attachments/642547206275989527/650482961929469973/ja.png"></a>
+                <p align="left" id="desc2">
                   <strong>The Company Program</strong> is an afterschool, extracurricular, weekly activity where students are given the ability to create their own business and learn what it takes to maintain one. Students explore the procedure of planning, manufacturing and selling their product, whilst also observing the hard work that goes into the end product. 
                 </p>
               </div>
@@ -139,7 +139,7 @@
                       <div class="wsite-section-elements">
                         <div class="wsite-multicol" style="position: relative; direction: ltr;">
                           <div class="wsite-multicol-table-wrap" style="margin: 0px -15px;">
-                            <table class="wsite-multicol-table" style="position: relative; border-collapse: collapse; table-layout: fixed; width: 100%; margin: 0 auto; padding: 0px;">
+                            <table class="mission-foot" style="position: relative; border-collapse: collapse; table-layout: fixed; width: 100%; margin: 0 auto; padding: 0px;">
                               <tbody class="wsite-multicol-tbody">
                                 <tr class="wsite-multicol-tr">
                                   <td class="info" style="vertical-align: top; padding: 0px 15px; margin: 0 auto; width: 10%;">
@@ -155,9 +155,9 @@
                                   <td class="info" style="vertical-align: top; padding: 0px 15px; margin: 0 auto; width: 10%;">
                                     <div class="paragraph" style="overflow-wrap: break-word; margin: 0 auto; padding: 0px; text-align: center; font-family: Open Sans; color: rgb(63, 63, 63);"><strong>&#8203;Values</strong><br>
                                       <p>Integrity<br>
-										Honesty<br>
-										Compassion<br>
-										Cooperation</p>
+                                      Honesty<br>
+                                      Compassion<br>
+                                      Cooperation</p>
                                 	</div>
                                   </td>
                                 </tr>
@@ -169,6 +169,14 @@
                     </div>
                   </div>
                 </div>
+              </div>
+              <script>
+                $(function(){
+                  $(".mission-mobile").load("../mission.html");
+                });
+              </script>
+              <div class="mission-mobile">
+
               </div>
             </div>
           </div>
