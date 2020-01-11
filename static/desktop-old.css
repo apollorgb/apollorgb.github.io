@@ -1,0 +1,157 @@
+body {
+	background-color: white;
+	margin: 0px;
+	height:100%;
+	font-family: Open Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+}
+h1 {
+	color:white;
+}
+h2{
+	color:rgb(238, 205, 18);
+}
+div.wrapper {
+	display:flex;
+	overflow:hidden;
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
+	position:absolute;
+	background:rgba(255, 255, 255, 1);
+}
+#wrapper{
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s;
+	display:none;
+}
+div.content {
+	text-align: center;
+	background-color: rgb(248, 248, 248);
+	position: static;
+	margin: 0 auto;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+	/*border-radius: 3px;*/
+	height: 100%;
+	width: 80%;
+	padding: 11px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+}
+div.navbar {
+	Position: relative;
+	max-width: 89%;
+	left: -0px;
+	top: 0;
+	z-index: 55;
+	background-color: whitesmoke;
+	margin: 0 auto;
+
+}
+div.logo {
+	text-align: center;
+	background-color: #333;
+	margin: 0 auto;
+	padding: 5px;
+	height: 105%;
+	color: #ff4949;
+	background: linear-gradient(90deg, rgb(250, 232, 68),rgb(255, 196, 0),rgb(255, 153, 0));
+	position: static;
+	width:80%;
+	box-sizing: border-box;
+	animation-name:logo;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+}
+@keyframes logo{
+	0% {background:rgb(250, 232, 68);}
+	25% {background:rgb(255, 196, 0);}
+	50% {background:rgb(255, 153, 0);}
+	75% {background:rgb(255, 196, 0);}
+	100% {background:rgb(250, 232, 68);}
+}
+iframe.slider {
+	min-width: 80%;
+	/* min-height: 610px; */
+	overflow: hidden;
+}
+iframe.links {
+	min-width: 80%;
+	min-height: 610px;
+	overflow: hidden;
+	left: 0;
+}
+div#secondary {
+	width: 100%;
+	
+}
+div#clr {
+	clear:both;
+}
+.tablinks {
+	background-color: #facf43;
+	border: none;
+	color: #333;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	align-content: center;
+}
+div.tab {
+	border: none;
+}
+ul.values{
+	position: static;
+	display: inline;
+}
+div.ja{
+	padding-top:10px;
+	display:block;
+	border-top: 2px solid rgb(250, 207, 67);
+}
+p#desc{
+	padding-left:20%;
+	padding-right:20%;
+
+}
+div.sponsors{
+	padding-top:10px;
+	display:block;
+	border-top: 1.5px solid rgb(255, 219, 100);
+}
+div.staff{
+	padding-top:10px;
+	display:block;
+	border-top: 1.5px solid rgb(255, 229, 100);
+}
+.lds-dual-ring {
+	display: block;
+	width: 80px;
+	height: 80px;
+	padding-top: 10%;
+  }
+.lds-dual-ring:after {
+	content: " ";
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: 8px;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	border-color: rgb(255, 234, 48) transparent #fff transparent;
+	animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
