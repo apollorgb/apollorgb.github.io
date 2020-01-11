@@ -186,10 +186,10 @@ p#desc2{
 	width: 80%;
 	position: absolute;
 	left:10%;
-	top:1600px;
 	z-index: 1000;
 	margin:0 auto;
 	padding-top: 10px;
+	bottom:0;
 }
 .body-mobile{
 	height:2000px;
