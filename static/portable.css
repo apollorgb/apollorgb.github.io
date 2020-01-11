@@ -165,7 +165,7 @@ p#desc{
 	padding-bottom:15px;
 	letter-spacing: 2px;
 	text-align: left;
-	padding-top: 110px;
+	padding-top: 120px;
 }
 p#desc2{
 	padding-bottom:500px;
@@ -189,9 +189,10 @@ p#desc2{
 	top:1600px;
 	z-index: 1000;
 	margin:0 auto;
+	padding-top: 10px;
 }
 .body-mobile{
-	height:3000px;
+	height:2000px;
 	z-index: 0;
 }
 /* Loading */

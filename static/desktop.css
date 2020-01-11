@@ -178,6 +178,9 @@ p#desc2{
 	text-align: left;
 	width: 25%;
 }
+.mission-mobile{
+	display: none;
+}
 
 /* Loading */
 .lds-dual-ring {
