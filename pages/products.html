@@ -2,15 +2,13 @@
 <html>
 <head>
 	<title>Apollo RGB - Products</title>
-	<link rel="stylesheet" href="../static/desktop.css">
+	<link href="../static/portable.css" media="screen and (max-aspect-ratio: 5/6)" rel="stylesheet">
+	<link href="../static/desktop.css" media="screen and (min-aspect-ratio: 5/6)" rel="stylesheet">
 	<link rel="shortcut icon" href="../static/images/icon.ico">
-	
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
-	
 	<script>
 		$(function(){
- 		$(".navbar").load("../nav2.html");
+ 		$(".navbar").load("../nav.html");
 		});
 	</script>
 </head>
@@ -18,20 +16,18 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
 
 		<div class="navbar" style="width:80%; margin:0 auto;"></div>
-		<div class="wrapper" style="height:100%; z-index: 100;">
+		<div class="wrapper" style="height:100%; z-index: 100; position: static;">
 			
-			<div class="content">
+			<div class="content" style="position: absolute;">
 				<h1 style="color:black;">
 					Products
 				</h1>
 				<div id="contain">
 					<h1 style="color:rgb(109, 109, 109); z-index: 55;">Modern LED lamps with custom designs.</h1>
-					<div class="p" style="margin:0 auto; padding-top:50px; padding-bottom:100px; position:relative; height:700px; max-width: 50%; z-index: 100;">
+					<div class="p" style="margin:0 auto; padding-top:50px; padding-bottom:100px; position:relative; height:700px; z-index: 100; max-width: 50%;">
 						<div>
 							<a href="./contact.html" style="display: block; top: 75%; left:25%;" class="learn"><button class="button"><B>Custom Order</B></button></a>
 						</div>
-						
-					
 				</div>
 				<div style="margin:0 auto; padding-top:50px; background:white; padding-bottom:100px; position:relative; height:100%;">
 					<img src="https://cdn.discordapp.com/attachments/626614485666234378/660346559023546398/unknown.png" style="max-width:100%; height: auto; z-index: 100; position: relative; ">
