@@ -153,31 +153,21 @@ div#clr {
 #info-primary{
 	height:3000px;
 }
-.ja-mobile{
-	display:block;
-	position: relative;
-	height:100%;
-	top:1800px;
-}
 div.ja{
 	padding-top:50px;
 	display:block;
 	background-color: rgb(250, 250, 250);
 	width: 100%;
 	margin:auto; margin-bottom:5px;
-	position: relative;
+	position: absolute;
 	bottom:0;
-	height:100%;
-}
-.ja-desktop{
-	display:none;
 }
 #jalogo{
 	object-fit:contain; 
 	max-width:100%; 
 	height:auto; 
 	padding-top:15px; 
-	position: relative; 
+	position:absolute; 
 	top:5px;
 	left: 0;
 	margin: 0 auto;
