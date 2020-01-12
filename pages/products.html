@@ -11,6 +11,11 @@
  		$(".navbar").load("../nav.html");
 		});
 	</script>
+	<script>
+		function resizeIframe(obj) {
+		  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+		}
+	  </script>
 </head>
 	<body style="height:1200px;">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
@@ -24,11 +29,12 @@
 				</h1>
 				<div id="contain">
 					<h1 style="color:rgb(109, 109, 109); z-index: 55;">Modern LED lamps with custom designs.</h1>
-					<div class="p" style="margin:0 auto; padding-top:50px; padding-bottom:100px; position:relative; height:700px; z-index: 100; max-width: 50%;">
+					<div class="p" style="margin:0 auto; padding-top:50px; padding-bottom:100px; position:relative; height:500px; z-index: 100; max-width: 100%;">
+					<div style="position: relative; height: 0; padding-bottom: 56.25%;"><iframe src="../slide.html" frameborder="0" scrolling="no" onload="resizeIframe(this)" / width="100%" style="height: auto;max-width: 700px;"></iframe></div>
 						<div>
-							<a href="./contact.html" style="display: block; top: 75%; left:25%;" class="learn"><button class="button"><B>Custom Order</B></button></a>
+							<a href="./contact.html" style="display: block; top: 62%; left:35%;" class="learn"><button class="button"><B>Custom Order</B></button></a>
 						</div>
-				</div>
+					</div>
 				<div style="margin:0 auto; padding-top:50px; background:white; padding-bottom:100px; position:relative; height:100%;">
 					<img src="https://cdn.discordapp.com/attachments/626614485666234378/660346559023546398/unknown.png" style="max-width:100%; height: auto; z-index: 100; position: relative; ">
 				</div>
@@ -52,10 +58,6 @@
 			body {
 			display: block;
 			align-items: center;
-			}
-
-			div.p{
-				background: url(https://cdn.discordapp.com/attachments/658460440237441054/660341330345459752/IMG_20191225_192021_046.jpg) 50% / cover no-repeat transparent; 
 			}
 		</style>
 	</body>
