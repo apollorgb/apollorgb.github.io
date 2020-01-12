@@ -146,12 +146,15 @@ div#clr {
 .staff-mobile{
 	display:none;
 }
-div.ja{
+div.ja-desktop{
 	padding-top:50px;
 	display:block;
 	background-color: rgb(250, 250, 250);
 	width: 100%;
 	margin:auto; margin-bottom:5px;
+}
+.ja-mobile{
+	display:none;
 }
 #jalogo{
 	object-fit:contain; 
