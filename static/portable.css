@@ -143,12 +143,24 @@ div#clr {
 	75% {border-bottom:2px solid rgb(96, 170, 255);}
 	100% {border-bottom:2px solid rgb(125, 214, 255);}
 }
+.staff-desktop{
+	display:none !important;
+}
+.staff-mobile{
+	display:block;
+	position: relative;
+}
+#info-primary{
+	height:3000px;
+}
 div.ja{
 	padding-top:50px;
 	display:block;
 	background-color: rgb(250, 250, 250);
 	width: 100%;
 	margin:auto; margin-bottom:5px;
+	position: absolute;
+	bottom:0;
 }
 #jalogo{
 	object-fit:contain; 
@@ -156,8 +168,9 @@ div.ja{
 	height:auto; 
 	padding-top:15px; 
 	position:absolute; 
-	top:929px;
+	top:5px;
 	left: 0;
+	margin: 0 auto;
 }
 p#desc{
 	padding-left:10%;

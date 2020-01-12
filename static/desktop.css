@@ -143,6 +143,9 @@ div#clr {
 	75% {border-bottom:2px solid rgb(96, 170, 255);}
 	100% {border-bottom:2px solid rgb(125, 214, 255);}
 }
+.staff-mobile{
+	display:none;
+}
 div.ja{
 	padding-top:50px;
 	display:block;
