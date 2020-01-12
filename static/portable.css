@@ -209,6 +209,27 @@ p#desc2{
 	height:2000px;
 	z-index: 0;
 }
+/* Charity */
+.lutwword{
+	display:none !important;
+}
+#lutwlogo{
+	float:none !important;
+}
+#quote{
+	padding-top: 20px;
+	width:90% !important;
+	margin:0 auto;
+	font-size: 17px !important;
+}
+#lutwinfo{
+	float:none !important;
+	margin: 0 auto;	
+	width: 80% !important;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	font-size: 16px !important;
+}
 /* Loading */
 .lds-dual-ring {
 	display: block;
